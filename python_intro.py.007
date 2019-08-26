@@ -1,0 +1,4 @@
+﻿# ボリュームが大きすぎたり小さすぎたりしたら変更する
+volume = 150
+if volume < 20 or volume > 80:
+    print("That's better!")
